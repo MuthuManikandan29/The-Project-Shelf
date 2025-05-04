@@ -3,7 +3,7 @@ import google.generativeai as genai
 import pyttsx3
 
 def configure_genai():
-    genai.configure(api_key='AIzaSyDNmiaSe6Rr4FTwFyfjok2E45nw7fODg4c')
+    genai.configure(api_key='your API key here')
     return genai.GenerativeModel("gemini-1.5-flash")
 
 def get_response(model, user_question, name):
